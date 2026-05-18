@@ -1,0 +1,52 @@
+.profile-links {
+  margin-top: 0.8rem;
+  text-align: center;
+}
+
+.profile-links a {
+  display: inline-block;
+  margin: 0 0.35rem;
+  font-size: 1.45rem;
+  color: var(--global-text-color);
+}
+
+.profile-links a:hover {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.profile-note {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+  text-align: center;
+  color: var(--global-text-color-light);
+}
+
+.education-item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.education-logo img {
+  width: 95px;
+  max-width: 95px;
+}
+
+.education-content {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+@media (max-width: 576px) {
+  .education-item {
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .education-logo img {
+    width: 70px;
+  }
+}

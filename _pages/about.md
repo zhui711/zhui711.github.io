@@ -8,7 +8,16 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info:
+  more_info:>
+    <div class="profile-links">
+      <a href="mailto:zhongruizhu@stu.xjtu.edu.cn" title="Email"><i class="fa-solid fa-envelope"></i></a>
+      <a href="https://github.com/zhui711" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://scholar.google.com/citations?user=RdfYrikAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+      <a href="https://www.linkedin.com/in/zhongrui-zhu-5539b53b7" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://x.com/RyanZhui711" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+    <div class="profile-note">Email is the best way to reach me.</div>
+
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -25,3 +34,16 @@ latest_posts:
 ---
 
 Hi, I am Zhongrui Zhu (朱钟睿), a second-year undergraduate student majoring in Computer Science at Xi’an Jiaotong University.
+
+## Education
+
+<div class="education-item">
+  <div class="education-logo">
+    <img src="{{ '/assets/img/xjtu-logo.png' | relative_url }}" alt="Xi'an Jiaotong University logo">
+  </div>
+  <div class="education-content">
+    <strong>Xi'an Jiaotong University</strong><br>
+    Undergraduate Student in Computer Science and Technology<br>
+    2024–2028
+  </div>
+</div>
