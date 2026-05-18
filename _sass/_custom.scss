@@ -46,20 +46,23 @@
   margin-bottom: 1.4rem;
 }
 
-.education-logo {
+img.education-logo {
   width: 92px;
+  max-width: 92px;
   height: auto;
-  flex-shrink: 0;
+  flex: 0 0 92px;
+  object-fit: contain;
+  display: block;
+}
+
+.education-content {
+  line-height: 1.45;
 }
 
 .education-title {
   font-weight: 600;
   font-size: 1.08rem;
   margin-bottom: 0.25rem;
-}
-
-.education-text div {
-  margin-bottom: 0.1rem;
 }
 
 /* Make the homepage visually tighter */

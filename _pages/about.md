@@ -47,12 +47,11 @@ Hi, I am Zhongrui Zhu (朱钟睿), a second-year undergraduate student majoring 
 ## Education
 
 <div class="education-item">
-  <div class="education-logo">
-    <img src="{{ '/assets/img/xjtu-logo.png' | relative_url }}" alt="Xi'an Jiaotong University logo">
-  </div>
+  <img class="education-logo" src="{{ '/assets/img/xjtu-logo.png' | relative_url }}" alt="Xi'an Jiaotong University logo">
+
   <div class="education-content">
-    <strong>Xi'an Jiaotong University</strong><br>
-    Undergraduate Student, 2024–2028<br>
-    B.Eng. in Computer Science and Technology
+    <div class="education-title">Xi'an Jiaotong University</div>
+    <div>Undergraduate Student, 2024–2028</div>
+    <div>B.Eng. in Computer Science and Technology</div>
   </div>
 </div>
