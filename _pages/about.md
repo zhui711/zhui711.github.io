@@ -16,7 +16,7 @@ profile:
       <a href="https://github.com/zhui711" title="GitHub">
         <i class="fa-brands fa-github"></i>
       </a>
-      <a href="https://scholar.google.com/citations?user=RdFYrikAAAAJ" title="Google Scholar">
+      <a href="https://scholar.google.com/citations?user=RdfYrikAAAAJ&amp;hl=en" title="Google Scholar">
         <i class="ai ai-google-scholar"></i>
       </a>
       <a href="https://www.linkedin.com/in/zhongrui-zhu-5539b53b7" title="LinkedIn">
