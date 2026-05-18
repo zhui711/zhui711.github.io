@@ -1,52 +1,86 @@
+/* Profile photo and links */
+.profile {
+  max-width: 300px;
+}
+
+.profile img {
+  max-width: 260px;
+  width: 100%;
+}
+
 .profile-links {
-  margin-top: 0.8rem;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.85rem;
+  margin-top: 0.9rem;
+  margin-bottom: 0.35rem;
 }
 
 .profile-links a {
-  display: inline-block;
-  margin: 0 0.35rem;
-  font-size: 1.45rem;
+  font-size: 1.35rem;
   color: var(--global-text-color);
+  text-decoration: none;
 }
 
 .profile-links a:hover {
   color: var(--global-theme-color);
-  text-decoration: none;
 }
 
 .profile-note {
-  margin-top: 0.4rem;
-  font-size: 0.9rem;
   text-align: center;
-  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  line-height: 1.35;
+  margin-top: 0.25rem;
 }
 
+/* Education section */
 .education-item {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
-  margin-top: 1rem;
-  margin-bottom: 2.5rem;
+  gap: 1.25rem;
+  margin-top: 0.8rem;
+  margin-bottom: 1.4rem;
 }
 
-.education-logo img {
-  width: 95px;
-  max-width: 95px;
+.education-logo {
+  width: 92px;
+  height: auto;
+  flex-shrink: 0;
 }
 
-.education-content {
-  font-size: 1rem;
-  line-height: 1.65;
+.education-title {
+  font-weight: 600;
+  font-size: 1.08rem;
+  margin-bottom: 0.25rem;
 }
 
-@media (max-width: 576px) {
+.education-text div {
+  margin-bottom: 0.1rem;
+}
+
+/* Make the homepage visually tighter */
+.post h2 {
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .profile {
+    max-width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .profile img {
+    max-width: 220px;
+  }
+
   .education-item {
-    align-items: flex-start;
     gap: 1rem;
   }
 
-  .education-logo img {
-    width: 70px;
+  .education-logo {
+    width: 76px;
   }
 }
