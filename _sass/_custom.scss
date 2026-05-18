@@ -4,7 +4,7 @@
 }
 
 .profile img {
-  max-width: 260px;
+  max-width: 220px;
   width: 100%;
 }
 
@@ -47,9 +47,11 @@
 }
 
 .education-logo {
-  width: 92px;
-  height: auto;
+  width: 92px !important;
+  max-width: 92px !important;
+  height: auto !important;
   flex-shrink: 0;
+  object-fit: contain;
 }
 
 .education-title {
