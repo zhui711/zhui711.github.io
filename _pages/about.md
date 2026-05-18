@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info:>
+  more_info: >
     <div class="profile-links">
       <a href="mailto:zhongruizhu@stu.xjtu.edu.cn" title="Email"><i class="fa-solid fa-envelope"></i></a>
       <a href="https://github.com/zhui711" title="GitHub"><i class="fa-brands fa-github"></i></a>
