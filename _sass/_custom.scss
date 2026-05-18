@@ -1,73 +1,40 @@
-/* Typography tuning */
-.post {
-  font-size: 1.04rem;
-  line-height: 1.65;
+/* Profile photo and links */
+.profile {
+  max-width: 300px;
 }
 
-.post p,
-.post li {
-  font-size: 1.04rem;
-  line-height: 1.65;
+.profile img {
+  max-width: 260px;
+  width: 100%;
 }
 
-/* Homepage title: make Zhongrui and Zhu both bold */
-.post-title {
-  font-weight: 700 !important;
+.profile-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.85rem;
+  margin-top: 0.9rem;
+  margin-bottom: 0.35rem;
 }
 
-.post-title .font-weight-bold {
-  font-weight: 700 !important;
+.profile-links a {
+  font-size: 1.35rem;
+  color: var(--global-text-color);
+  text-decoration: none;
 }
 
-/* Section titles: About Me / Education / Papers */
-.post h2 {
-  font-size: 2.15rem;
-  font-weight: 500;
-  line-height: 1.25;
-  margin-top: 1.9rem;
-  margin-bottom: 1rem;
+.profile-links a:hover {
+  color: var(--global-theme-color);
 }
 
-/* Reduce excessive blank space before selected papers / Papers */
-.publications {
-  margin-top: 1.5rem;
-}
-
-/* Profile note: small, light, academic-style */
 .profile-note {
-  margin-top: 0.45rem;
-  font-size: 0.78rem;
+  margin-top: 0.55rem;
+  font-size: 0.82rem;
   line-height: 1.35;
   color: var(--global-text-color-light);
   text-align: center;
   font-family: var(--global-font-family);
   font-weight: 400;
-}
-
-/* Profile photo: keep it academic-page sized */
-.profile {
-  max-width: 285px;
-}
-
-.profile img {
-  max-width: 255px;
-  width: 100%;
-}
-
-/* Social links under profile */
-.profile-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.9rem;
-  margin-top: 0.75rem;
-  margin-bottom: 0.25rem;
-}
-
-.profile-links a {
-  font-size: 1.25rem;
-  color: var(--global-text-color);
-  text-decoration: none;
 }
 
 /* Education section */
@@ -76,11 +43,11 @@
   align-items: center;
   gap: 1.25rem;
   margin-top: 0.8rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.4rem;
 }
 
 .education-logo {
-  width: 88px;
+  width: 92px;
   height: auto;
   flex-shrink: 0;
 }
@@ -91,24 +58,17 @@
   margin-bottom: 0.25rem;
 }
 
-.education-text {
-  font-size: 1.02rem;
-  line-height: 1.5;
+.education-text div {
+  margin-bottom: 0.1rem;
 }
 
-.education-text div {
-  margin-bottom: 0.08rem;
+/* Make the homepage visually tighter */
+.post h2 {
+  margin-top: 1.8rem;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 768px) {
-  .post {
-    font-size: 1rem;
-  }
-
-  .post h2 {
-    font-size: 1.8rem;
-  }
-
   .profile {
     max-width: 240px;
     margin-left: auto;
@@ -119,10 +79,6 @@
     max-width: 220px;
   }
 
-  .profile-links a {
-    font-size: 1.2rem;
-  }
-
   .education-item {
     gap: 1rem;
   }
@@ -130,4 +86,14 @@
   .education-logo {
     width: 76px;
   }
+}
+
+.post-title,
+.navbar-brand {
+  font-weight: 700 !important;
+}
+
+.post-title .font-weight-bold,
+.navbar-brand .font-weight-bold {
+  font-weight: 700 !important;
 }
