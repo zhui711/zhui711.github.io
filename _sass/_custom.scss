@@ -4,7 +4,7 @@
 }
 
 .profile img {
-  max-width: 220px;
+  max-width: 260px;
   width: 100%;
 }
 
@@ -47,11 +47,9 @@
 }
 
 .education-logo {
-  width: 92px !important;
-  max-width: 92px !important;
-  height: auto !important;
+  width: 92px;
+  height: auto;
   flex-shrink: 0;
-  object-fit: contain;
 }
 
 .education-title {
@@ -65,22 +63,22 @@
 }
 
 /* Make the homepage visually tighter */
-.post h2 {
-  margin-top: 1.8rem;
-  margin-bottom: 1rem;
-}
+// .post h2 {
+//   margin-top: 1.8rem;
+//   margin-bottom: 1rem;
+// }
 
-@media (max-width: 768px) {
-  .profile {
-    max-width: 240px;
-    margin-left: auto;
-    margin-right: auto;
-  }
+// @media (max-width: 768px) {
+//   .profile {
+//     max-width: 240px;
+//     margin-left: auto;
+//     margin-right: auto;
+//   }
 
-  .profile img {
-    max-width: 220px;
-  }
-}
+//   .profile img {
+//     max-width: 220px;
+//   }
+// }
 
 .post-title,
 .navbar-brand {
