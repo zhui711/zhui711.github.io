@@ -27,6 +27,9 @@ profile:
       </a>
     </div>
     <div class="profile-note">Email is the best way to reach me.</div>
+    <div class="profile-email">
+      <a href="mailto:zhongruizhu@stu.xjtu.edu.cn">zhongruizhu@stu.xjtu.edu.cn</a>
+    </div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -46,11 +49,11 @@ latest_posts:
 
 Hi, I am Zhongrui Zhu (朱钟睿), a second-year undergraduate student majoring in Computer Science at Xi’an Jiaotong University.
 
-I am fortunate to conduct undergraduate research at XJTU under the guidance of [Prof. Sanping Zhou](https://scholar.google.com/citations?user=2Drvv44AAAAJ&hl=zh-CN&oi=ao), and also work with [Wenting Chen](https://o0t1ng0o.github.io/) on medical AI. My research interests lie in computer vision, generative modeling, test-time adaptation, and LLM reasoning & evaluation. I am particularly interested in building adaptive AI systems that can generalize beyond standard benchmarks and remain useful in real-world domains such as medical AI.
+I am fortunate to conduct undergraduate research at XJTU under the guidance of Prof. [Sanping Zhou](https://scholar.google.com/citations?user=2Drvv44AAAAJ&hl=zh-CN&oi=ao), and also work with [Wenting Chen](https://o0t1ng0o.github.io/) on medical AI. My research interests lie in computer vision, generative modeling, test-time adaptation, and LLM reasoning & evaluation. I am particularly interested in building adaptive AI systems that can generalize beyond standard benchmarks and remain useful in real-world domains such as medical AI.
 
 **Open to opportunities.** I enjoy exploring broadly interesting problems in AI and welcome research collaborations. I am also looking for research internship opportunities in both academia and industry. Please feel free to reach out if you are interested!
 
-Outside of research, I am a huge fan of Arsenal 🔴⚪.
+Outside of research, I am a huge fan of Arsenal FC 🔴⚪.
 
 ## Education
 
