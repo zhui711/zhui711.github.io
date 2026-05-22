@@ -30,6 +30,14 @@ profile:
     <div class="profile-email">
       <a href="mailto:zhongruizhu@stu.xjtu.edu.cn">zhongruizhu@stu.xjtu.edu.cn</a>
     </div>
+    <div class="clustrmaps-widget">
+      <a href="https://clustrmaps.com/site/1ca34" title="ClustrMaps">
+        <img
+          src="https://www.clustrmaps.com/map_v2.png?d=XJa7idj0PW3SieVVuzKeV2_NgPA57Puz_vNrs0YgBOc&cl=ffffff"
+          alt="ClustrMaps visitor map"
+        />
+      </a>
+    </div>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
